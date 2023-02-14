@@ -1,0 +1,6 @@
+/*!
+ * Built by MAN Digital Hub with Stencil
+ * Copyright (c) MAN 2023
+ * 
+ */
+import{r as t,h as e,H as s}from"./p-13d37cd1.js";const r=class{constructor(e){t(this,e),this.message="",this.variant="error",this.show=!1}render(){return e(s,{class:`tgds-helper-text ${this.show?"show":null}`},e("span",{class:`\n            tgds-helper-text__message\n            tgds-helper-text__message--${this.variant}`},this.message))}};r.style=":root,:host{--kraft-cp-helper-text-text-error:#990000;--kraft-cp-helper-text-text-success:#2D6300;--kraft-cp-helper-text-text-info:#244B84}:host{display:none;align-items:center}:host .tgds-helper-text__message{font-family:var(--kraft-pp-font-family-condensed);font-size:var(--kraft-pp-font-size-component-bold-xs);font-weight:var(--kraft-pp-font-weight-component-bold-xs);line-height:var(--kraft-pp-font-height-component)}:host .tgds-helper-text__message--error{color:var(--kraft-cp-helper-text-text-error)}:host .tgds-helper-text__message--success{color:var(--kraft-cp-helper-text-text-success)}:host .tgds-helper-text__message--info{color:var(--kraft-cp-helper-text-text-info)}:host(.show){display:flex}";export{r as tgds_helper_text}

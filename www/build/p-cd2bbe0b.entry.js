@@ -1,0 +1,6 @@
+/*!
+ * Built by MAN Digital Hub with Stencil
+ * Copyright (c) MAN 2023
+ * 
+ */
+import{r as t,h as s,H as i,g as h}from"./p-13d37cd1.js";const e=class{constructor(s){t(this,s),this.size=16,this.width=void 0,this.height=void 0,this.fill="currentColor",this.decorative=!1}render(){return s(i,{class:"tgds-icon"},s("svg",Object.assign({class:"tgds-icon__icon",xmlns:"http://www.w3.org/2000/svg",width:this.width||this.size,height:this.height||this.size,viewBox:"0 0 48 48"},this.decorative?{"aria-hidden":"true"}:{}),s("g",{fill:this.fill},s("g",null,s("path",{"fill-rule":"evenodd",d:"M22.483 15.6H19.2l.317 20.4H22.8l-.317-20.4zm9.01 22.444c0 .176-.096.27-.214.27H16.723a.214.214 0 0 1-.216-.21l-.74-22.504H12L13.086 42c-.11-.034 3.638 0 3.638 0h18.19L36 15.6h-3.768l-.738 22.444zM28.8 15.6 28.483 36H25.2l.317-20.4H28.8zM31.73 6v3.638h6.67v3.638H9.6V9.638h6.821V6h15.31zm-2.425 1.516h-10.61v1.516h10.61V7.516z","clip-rule":"evenodd"})))))}get hostElement(){return h(this)}};export{e as tgds_icon_interface_delete}
