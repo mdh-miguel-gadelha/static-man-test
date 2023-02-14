@@ -34,12 +34,75 @@
           </p>
         </div>
         <form action="">
-          <div class="name-input_wrapper"></div>
+          <tgds-textarea
+            value=""
+            label="Your inquiry"
+            rows="3"
+            maxlength="300"
+            minlength="30"
+            disabled="false"
+            required="true"
+            invalid="false"
+            resize="both"
+          >
+          </tgds-textarea>
 
-          <div class="text-input_group-wrapper"></div>
+          <div class="name-input_wrapper">
+            <tgds-input-text
+              type="text"
+              name="input-name"
+              label="First Name"
+              value="fisrt"
+              required="true"
+            ></tgds-input-text>
+            <tgds-input-text
+              type="text"
+              name="input-name"
+              label="Last Name"
+              value="fisrt"
+              required="true"
+            ></tgds-input-text>
+          </div>
 
-          <div class="data-protection-wrapper"></div>
-          <div class="submit-button__wrapper"></div>
+          <div class="text-input_group-wrapper">
+            <tgds-input-text
+              type="text"
+              name="Email"
+              label="Email"
+              required="true"
+            ></tgds-input-text>
+            <tgds-input-text
+              type="text"
+              name="Company"
+              label="Company"
+              required="true"
+            ></tgds-input-text>
+            <tgds-input-text
+              type="text"
+              name="Location"
+              label="Location"
+              required="true"
+            ></tgds-input-text>
+          </div>
+
+          <div class="data-protection-wrapper">
+            <tgds-checkbox
+              checked="false"
+              label="I have read and understood the information on data protection *"
+              value="some value"
+              required="true"
+            ></tgds-checkbox>
+          </div>
+          <div class="submit-button__wrapper">
+            <tgds-button
+              variant="primary"
+              size="medium"
+              disabled="false"
+              icon-name="arrows-chevron-1-right"
+            >
+              Send
+            </tgds-button>
+          </div>
         </form>
       </div>
     </section>
